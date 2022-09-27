@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-27T08:51:37 EDT" name="Automation" finished-at="2022-09-27T08:52:14 EDT" duration-ms="36401">
+    <groups>
+    </groups>
+    <test started-at="2022-09-27T08:51:37 EDT" name="TestAutomation" finished-at="2022-09-27T08:52:14 EDT" duration-ms="36401">
+      <class name="API_Automation">
+        <test-method signature="validates_that_year_is_the_same_in_all_elements_of_the_data_array()[pri:1, instance:API_Automation@1a4013]" started-at="2022-09-27T08:52:11 EDT" name="validates_that_year_is_the_same_in_all_elements_of_the_data_array" finished-at="2022-09-27T08:52:14 EDT" duration-ms="2948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validates_that_year_is_the_same_in_all_elements_of_the_data_array -->
+        <test-method signature="validates_that_each_state_name_is_unique_in_data_array()[pri:2, instance:API_Automation@1a4013]" started-at="2022-09-27T08:52:14 EDT" name="validates_that_each_state_name_is_unique_in_data_array" finished-at="2022-09-27T08:52:14 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validates_that_each_state_name_is_unique_in_data_array -->
+      </class> <!-- API_Automation -->
+      <class name="WebAutomation">
+        <test-method signature="validateThatTwoItemsAreAddedToTheCart()[pri:1, instance:WebAutomation@79da8dc5]" started-at="2022-09-27T08:51:37 EDT" name="validateThatTwoItemsAreAddedToTheCart" finished-at="2022-09-27T08:52:09 EDT" duration-ms="32033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThatTwoItemsAreAddedToTheCart -->
+        <test-method signature="validateErrorMessage()[pri:2, instance:WebAutomation@79da8dc5]" started-at="2022-09-27T08:52:09 EDT" name="validateErrorMessage" finished-at="2022-09-27T08:52:11 EDT" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+      </class> <!-- WebAutomation -->
+    </test> <!-- TestAutomation -->
+  </suite> <!-- Automation -->
+</testng-results>
